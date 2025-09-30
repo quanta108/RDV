@@ -1,0 +1,9 @@
+/* style.css */
+body {
+  background-image: url('Screenshot 2025-09-30 171310.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
