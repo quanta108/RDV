@@ -21,8 +21,9 @@
             background-color: #1a1a1a;
             padding: 15px 30px;
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
             align-items: center;
+            gap: 15px;
         }
 
         .site-title {
@@ -41,6 +42,13 @@
             justify-content: center;
             color: white;
             font-size: 20px;
+            overflow: hidden;
+        }
+
+        .user-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         .container {
@@ -98,11 +106,11 @@
 </head>
 <body>
     <header>
+        <div class="user-icon"><img src="Screenshot 2025-09-30 172951.png" alt="Dinosaur" /></div>
         <div class="logo-container">
             <div class="logo">℮</div>
             <div class="site-title">Pronite Portal</div>
         </div>
-        <div class="user-icon"><img src="Screenshot 2025-09-30 172951.png" alt="Dinosaur" /></div>
     </header>
 
     <div class="container">
